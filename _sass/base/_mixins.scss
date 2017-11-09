@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@mixin padding-section{padding:0 30px;@include box-sizing(border-box);}
+
+@mixin rotate45($width:7px,$height:7px){
+	position:absolute;content:"";width:$width;height:$height;background:#FFFFFF;border-style:solid;border-width:1px 0 0 1px;border-color:#ebebeb transparent transparent #ebebeb;
+	-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-webkit-transform: rotate(45deg);transform:rotate(45deg);
+
+}
