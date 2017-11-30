@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import "base/common";
+@import "common";
 
 html,body{
     min-height: 100%;background-color: #fff;overflow: visible
@@ -7,39 +7,10 @@ html,body{
 body {
     overflow: visible;
 }
-.scroll-fix {
-  height: 100%;
-  overflow: hidden;
-}
 body,button{
     font-family: 'Microsoft Yahei',Helvetica;
 }
 a,button{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);outline: none;}
-.fl{float: left;}
-.fr{float: right;}
-.clearfix{
-    *zoom:1;
-    &:after{
-        content:'';
-        display:block;
-        overflow: hidden;
-        clear: both;
-        height:0;
-    }
-}
-.mask-layer{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right: 0;
-    background: rgba(43, 43, 43, .6);
-    z-index: 10;
-}
 html { overflow: scroll; width: 100%; height: 100%; font-size: 100%; }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block }
 html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, label, textarea, p, blockquote, th, td { margin: 0; padding: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;-o-text-size-adjust: none;text-size-adjust: none; }
@@ -62,7 +33,7 @@ textarea { display: block; padding: 5px; font-size: 15px; border: 1px solid #d7d
 body { background-color: #f2f2f2; font-family:"Microsoft Yahei";}
 
 a {
-    text-decoration: none; color: $black;
+    text-decoration: none; color: #333;
     &:hover{text-decoration: none ; color:#ff3366;}
 }
 
