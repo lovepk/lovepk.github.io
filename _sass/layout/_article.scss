@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import "../base/public";
+
+.lvpk-content {
+	width: 740px;
+	margin: 20px auto;
+	position: relative;
+}
+.ar-list{
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 450px;
+	padding: 0 20px;
+	background-color: #fff;
+	box-shadow:-5px 0 5px #e7e7e7, /*左边阴影*/  
+    5px 0 5px #e7e7e7, /*右边阴影*/  
+    // 0 -5px 5px #e7e7e7, /*顶部阴影*/  
+    0 5px 5px #e7e7e7; /*底边阴影*/  
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import "../base/public";
+
+.aside{
+	&.adsorb{
+		position: fixed;
+		top: 0;
+	}
+}
+.aside-left {
+	width: 100px;
+	margin-left: -110px;
+	ul{
+		background-color: #CEDEE9;
+		li{
+			height: 40px;
+			line-height: 40px;
+			box-sizing: border-box;
+			border-left: 4px solid #CEDEE9;
+			a{
+				color: #666666;
+			}
+		}
+		.active{
+			background-color: #3D4043;
+			color: #fff;
+			border-left-color: #fff;
+		}
+	}
+}
+.aside-right {
+	width: 280px;
+	margin-right: -290px;
+	ul{
+		background-color: #fff;
+	}
+}

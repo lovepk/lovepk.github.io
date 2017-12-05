@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
-<div>你好！</div>
+<div class="ar-list i-list fl">
+	<ul>
+	    {% for article in site.categories.fed %}
+	        <li>
+	            <h2><a href="{{ site.baseurl }}/{{ article.url }}">{{ article.title }}</a></h2>
+	            <div>{{ article.description }}</div>
+	        </li>
+	    {% endfor %}
+	</ul>
+</div>
+
 
 

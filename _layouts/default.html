@@ -6,6 +6,12 @@
 </head>
 <body>
 	{% include header.html %}
-	{{content}}
+	<div class="lvpk-content clearfix">
+		{% include aside-left.html %}
+		{{content}}
+		{% include aside-right.html %}
+	</div>
 </body>
 </html>
+<script src="{{ site.baseurl }}/libs/jquery-1.7.min.js"></script>
+<script src="{{ site.baseurl }}/dist/public.js"></script>

@@ -11,7 +11,7 @@ body,button{
     font-family: 'Microsoft Yahei',Helvetica;
 }
 a,button{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);outline: none;}
-html { overflow: scroll; width: 100%; height: 100%; font-size: 100%; }
+html { overflow: scroll; width: 100%; height: 100%; font-size: 100%; margin-top: 40px!important;position: relative;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block }
 html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, label, textarea, p, blockquote, th, td { margin: 0; padding: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;-o-text-size-adjust: none;text-size-adjust: none; }
 body, textarea { font-family: Arial; font-size: 100%; font-weight: 400; color: #666; }
@@ -30,88 +30,88 @@ input[type="button"],input[type="submit"],input[type="text"],button,select,optio
 }
 select { outline: 0; -webkit-appearance: none }
 textarea { display: block; padding: 5px; font-size: 15px; border: 1px solid #d7d7d7; outline: 0; border-radius: 3px; background: -webkit-linear-gradient(#ededed 0, #fff 5%) }
-body { background-color: #f2f2f2; font-family:"Microsoft Yahei";}
+body { background-color:#E5F1F8; font-family:"Microsoft Yahei";}
 
 a {
     text-decoration: none; color: #333;
     &:hover{text-decoration: none ; color:#ff3366;}
 }
 
-@media screen and (min-width:240px){
-    html,body{font-size:24px}
-}
-@media screen and (min-width:320px){
-    html,body{font-size:32px}
-}
-@media screen and (min-width:360px){
-    html,body{font-size:36px;}
-}
-@media screen and (min-width:375px){
-    html,body{font-size:37px;}
-}
-@media screen and (min-width:384px){
-    html,body{font-size:38px;}
-}
-@media screen and (min-width:414px){
-    html,body{font-size:41px;}
-}
-@media screen and (min-width:412px){
-    html,body{font-size:41px;}
-}
-@media screen and (min-width:420px){
-    html,body{font-size:42px;}
-}
-@media screen and (min-width:480px){
-    html,body{font-size:48px;}
-}
-@media screen and (min-width:568px){
-    html,body{font-size:56px;}
-}
-@media screen and (min-width:600px){
-    html,body{font-size:60px;}
-}
-@media screen and (min-width:640px){
-    html,body{font-size:64px;}
-}
-@media screen and (min-width:667px){
-    html,body{font-size:66px;}
-}
-@media screen and (min-width:736px){
-    html,body{font-size:73px;}
-}
-@media screen and (min-width:750px){
-    html,body{font-size:75px;}
-}
-@media screen and (min-width:768px){
-    html,body{font-size:76px;}
-}
+// @media screen and (min-width:240px){
+//     html,body{font-size:24px}
+// }
+// @media screen and (min-width:320px){
+//     html,body{font-size:32px}
+// }
+// @media screen and (min-width:360px){
+//     html,body{font-size:36px;}
+// }
+// @media screen and (min-width:375px){
+//     html,body{font-size:37px;}
+// }
+// @media screen and (min-width:384px){
+//     html,body{font-size:38px;}
+// }
+// @media screen and (min-width:414px){
+//     html,body{font-size:41px;}
+// }
+// @media screen and (min-width:412px){
+//     html,body{font-size:41px;}
+// }
+// @media screen and (min-width:420px){
+//     html,body{font-size:42px;}
+// }
+// @media screen and (min-width:480px){
+//     html,body{font-size:48px;}
+// }
+// @media screen and (min-width:568px){
+//     html,body{font-size:56px;}
+// }
+// @media screen and (min-width:600px){
+//     html,body{font-size:60px;}
+// }
+// @media screen and (min-width:640px){
+//     html,body{font-size:64px;}
+// }
+// @media screen and (min-width:667px){
+//     html,body{font-size:66px;}
+// }
+// @media screen and (min-width:736px){
+//     html,body{font-size:73px;}
+// }
+// @media screen and (min-width:750px){
+//     html,body{font-size:75px;}
+// }
+// @media screen and (min-width:768px){
+//     html,body{font-size:76px;}
+// }
 
-@media screen and (min-width:800px){
-    html,body{font-size:80px;}
-}
-@media screen and (min-width:960px){
-    html,body{font-size:96px;}
-}
-@media screen and (min-width:1024px){
-    html,body{font-size:102px;}
-}
+// @media screen and (min-width:800px){
+//     html,body{font-size:80px;}
+// }
+// @media screen and (min-width:960px){
+//     html,body{font-size:96px;}
+// }
+// @media screen and (min-width:1024px){
+//     html,body{font-size:102px;}
+// }
 
-@media screen and (min-width:1080px){
-    html,body{font-size:108px;}
-}
+// @media screen and (min-width:1080px){
+//     html,body{font-size:108px;}
+// }
 
-@media screen and (min-width:1280px){
-    html,body{font-size:128px;}
-}
+// @media screen and (min-width:1280px){
+//     html,body{font-size:128px;}
+// }
 
-@media screen and (min-width:1366px){
-    html,body{font-size:136px;}
-}
+// @media screen and (min-width:1366px){
+//     html,body{font-size:136px;}
+// }
 
-@media screen and (min-width:1440px){
-    html,body{font-size:144px;}
-}
+// @media screen and (min-width:1440px){
+//     html,body{font-size:144px;}
+// }
 
-@media screen and (min-width:1920px){
-    html,body{font-size:192px;}
-}
+// @media screen and (min-width:1920px){
+//     html,body{font-size:192px;}
+// }

@@ -5,6 +5,51 @@
 	overflow: hidden;
 }
 .adv-wrapper{
+	position: absolute;
 	height: 40px;
-	background-color: #444;
+	width: 100%;
+	line-height: 40px;
+	background-color: #444;	
+	left: 0;
+	top: -40px;
+	.adv-define{
+		padding: 0 25px;
+		font-size: 12px;
+		text-align: right;
+		color: #a8a8aa;
+	}
+}
+#lvpk-nav{
+	height: 45px;
+	width: 100%;
+	background-color: #333;
+	a{
+		color: #fff;
+		font-size: 14px;
+		display: 
+		block;
+	}
+	.g-n-content {
+		width: 740px;
+		margin: 0 auto;
+		line-height: 45px;
+	}
+	.lt768-nc{
+		text-align: justify;
+	}
+	.gt768-nc{
+		height: 45px;
+		text-align: justify;
+		&:after{
+			content: '';
+			display: inline-block;
+			width: 100%;
+			font-size: 0;
+			line-height: 0;
+		}
+		li{
+			display: inline-block;
+			position: relative;
+		}
+	}
 }

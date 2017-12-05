@@ -1,0 +1,1 @@
+$(function(){var a=$(".aside");$(window).scroll(function(){b();});function b(){var c=$(document).scrollTop();console.log(c);if(c>100){a.addClass("adsorb");}else{a.removeClass("adsorb");}}});
