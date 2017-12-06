@@ -1,6 +1,16 @@
+
 <div class="aside aside-left fl">
 	<ul>
-		<li><a href="">Web</a></li>
-		<li><a href="">狂想</a></li>
+	{% if page.type == 'web' %}
+	    <li class="active selected"><a href="{{ site.baseurl }}/index.html">Web</a></li>
+	{% else %}
+	 	<li><a href="{{ site.baseurl }}/index.html">Web</a></li>
+ 	{% endif %}
+
+	{% if page.type == 'think' %}
+	    <li class="active selected"><a href="{{ site.baseurl }}/artype/chimaes.html">狂想</a></li>
+	{% else %}
+	 	<li><a href="{{ site.baseurl }}/artype/chimaes.html">狂想</a></li>
+ 	{% endif %}
 	</ul>
 </div>

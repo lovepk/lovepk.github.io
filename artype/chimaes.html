@@ -1,10 +1,10 @@
 ---
 layout: default
-type: web
+type: think
 ---
 <div class="ar-list i-list fl">
 	<ul>
-	    {% for article in site.categories.fed %}
+	    {% for article in site.categories.chimaes %}
 	        <li>
 	            <h2><a href="{{ site.baseurl }}/{{ article.url }}">{{ article.title }}</a></h2>
 	            <div>{{ article.description }}</div>
@@ -12,6 +12,3 @@ type: web
 	    {% endfor %}
 	</ul>
 </div>
-
-
-
