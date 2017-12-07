@@ -21,8 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/lovepk.github.io" # the subpath of your site, e.g. /blog
 url: "https://lovepk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: undefined
+github_username: lovepk
 permalink: /:categories/:title.html
 
 # Build settings
@@ -41,4 +41,4 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: [README.md, config.rb, src]
+exclude: [README.md, config.rb, src, node_modules]
