@@ -3,6 +3,7 @@
 
 .lvpk-header {
 	overflow: hidden;
+	width: 100%;
 }
 .adv-wrapper{
 	position: absolute;
@@ -30,14 +31,14 @@
 		block;
 	}
 	.g-n-content {
-		width: 740px;
-		margin: 0 auto;
 		line-height: 45px;
 	}
 	.lt768-nc{
 		text-align: justify;
 	}
 	.gt768-nc{
+		max-width: 740px;
+		margin: 0 auto;
 		height: 45px;
 		text-align: justify;
 		&:after{

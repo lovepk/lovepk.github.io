@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 767px) {
+	.aside-left, .aside-right, .gt768-nc{
+		display: none;
+	}
+	.lvpk-content {
+		width: 100%;
+	}
+}
