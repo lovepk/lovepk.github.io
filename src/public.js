@@ -9,7 +9,9 @@ $(function() {
 		}
 	})
 	$('audio')[0].addEventListener('canplaythrough', function() {
-		$('#play-audio').click();
+		if(!Cookies.get('mscC')) {
+			$('#play-audio').click();
+		}
 	})
 	// 以上接着播放跳转时的音乐
 	$asideLeft = $('.aside-left');
