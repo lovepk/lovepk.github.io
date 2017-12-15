@@ -6,9 +6,10 @@ $(function() {
 			$('audio')[0].play();
 		}
 	})
-	alert(navigator.userAgent)
-	if(navigator.userAgent.indexOf('UBrowser') > -1) {
-		alert("uc浏览器");
+	if(navigator.userAgent.indexOf('UCBrowser') > -1) {
+		$('html').one('touchstart', function() {
+			$('audio')[0].play();
+		})
 	}
 	if(!Cookies.get('mscC')) {
 		$('#play-audio').click();
