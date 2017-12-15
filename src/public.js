@@ -6,7 +6,7 @@ $(function() {
 			$('audio')[0].play();
 		}
 	})
-	console.log(navigator.userAgent)
+	alert(navigator.userAgent)
 	if(navigator.userAgent.indexOf('UBrowser') > -1) {
 		alert("uc浏览器");
 	}
