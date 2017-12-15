@@ -1,6 +1,10 @@
 $(function() {
-	if(!Cookies.get('mscC')) return;
-	$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
+	$('html').one('touchstart', function() {
+		$('audio')[0].play();
+	})
+	if(Cookies.get('mscC')) {
+		$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
+	}
 	// 以上接着播放跳转时的音乐
 	$asideLeft = $('.aside-left');
 	$asideRight = $('.aside-right');
@@ -48,7 +52,6 @@ $(function() {
 		if(winWidth > 1340 && scrollTop > 145) {
 			$asideRight.addClass('adsorb');
 		}
-		console.log(scrollTop)
 		if(winWidth < 1340) {
 			$asideRight.addClass('aside-drawer');
 			if(scrollTop > 145) {
