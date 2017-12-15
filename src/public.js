@@ -8,7 +8,9 @@ $(function() {
 			$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
 		}
 	})
-	$('#play-audio').click();
+	$('audio')[0].addEventListener('canplaythrough', function() {
+		$('#play-audio').click();
+	})
 	// 以上接着播放跳转时的音乐
 	$asideLeft = $('.aside-left');
 	$asideRight = $('.aside-right');
