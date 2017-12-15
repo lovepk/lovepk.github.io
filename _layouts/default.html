@@ -5,7 +5,7 @@
 	<!-- <script src="{{ site.baseurl }}/libs/amfe-flexible.min.js"></script> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/pages/index.css">
-	<audio src="{{ site.baseurl }}/libs/data/xinlove.mp3" autoplay></audio>
+	<audio src="{{ site.baseurl }}/libs/data/xinlove.mp3" loop="-1" preload></audio>
 	<title>pklove's blog</title>
 </head>
 <body>
@@ -15,6 +15,10 @@
 		{{content}}
 		{% include aside-right.html %}
 	</div>
+	<form>
+		<button id="play-audio" type="hidden"></button>
+	</form>
+	
 </body>
 </html>
 <script src="{{ site.baseurl }}/libs/jquery-1.7.min.js"></script>

@@ -1,10 +1,14 @@
 $(function() {
-	$('html').one('touchstart', function() {
-		$('audio')[0].play();
+	$('#play-audio').one('click', function(e) {
+		e = e || window.event;
+		e.preventDefault();
+		if(!Cookies.get('mscC')) {
+			$('audio')[0].play();
+		} else {
+			$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
+		}
 	})
-	if(Cookies.get('mscC')) {
-		$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
-	}
+	$('#play-audio').click();
 	// 以上接着播放跳转时的音乐
 	$asideLeft = $('.aside-left');
 	$asideRight = $('.aside-right');
