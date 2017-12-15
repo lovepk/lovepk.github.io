@@ -4,15 +4,13 @@ $(function() {
 		e.preventDefault();
 		if(!Cookies.get('mscC')) {
 			$('audio')[0].play();
-		} else {
-			$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
 		}
 	})
-	$('audio')[0].addEventListener('canplaythrough', function() {
-		if(!Cookies.get('mscC')) {
-			$('#play-audio').click();
-		}
-	})
+	if(!Cookies.get('mscC')) {
+		$('#play-audio').click();
+	} else {
+		$('audio')[0].currentTime = (Cookies.get('mscC') * 1).toFixed(2);
+	}
 	// 以上接着播放跳转时的音乐
 	$asideLeft = $('.aside-left');
 	$asideRight = $('.aside-right');
