@@ -11,6 +11,11 @@ $(function() {
 			$('audio')[0].play();
 		})
 	}
+	if(!!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) {
+		$('html').one('touchstart', function() {
+			$('audio')[0].play();
+		})
+	}
 	if(!Cookies.get('mscC')) {
 		$('#play-audio').click();
 	} else {
