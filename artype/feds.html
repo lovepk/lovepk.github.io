@@ -1,8 +1,14 @@
 ---
 layout: default
-title:  前端
-
+type: web
 ---
-<div>
-	前端文章动态
+<div class="ar-list i-list fl">
+	<ul>
+	    {% for article in site.categories.feds %}
+	        <li>
+	            <h2><a href="{{ site.baseurl }}/{{ article.url }}">{{ article.title }}</a></h2>
+	            <div>{{ article.description }}</div>
+	        </li>
+	    {% endfor %}
+	</ul>
 </div>
