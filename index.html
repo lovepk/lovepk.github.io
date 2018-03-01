@@ -5,9 +5,10 @@ type: index
 <div class="ar-list i-list fl">
 	<ul>
 	    {% for article in site.categories.feds %}
-	        <li>
-	            <h2><a href="{{ site.baseurl }}/{{ article.url }}">{{ article.title }}</a></h2>
-	            <div>{{ article.description }}</div>
+	        <li class="article-item">
+	            <h2><a class="a-h2" href="{{ site.baseurl }}/{{ article.url }}">{{ article.title }}</a></h2>
+	            <p class="pub-date">{{ article.date | date: "发布时间：%Y年%m月%d日" }}</p>
+	            <div class="desc">{{ article.description }}</div>
 	        </li>
 	    {% endfor %}
 	</ul>

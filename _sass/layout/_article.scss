@@ -9,11 +9,45 @@
 .ar-list, .article{
 	width: 100%;
 	box-sizing: border-box;
+	background-color: #f6f6f6;
 	min-height: 750px;
-	padding: 0 20px;
-	background-color: #fff;
 	box-shadow:-5px 0 5px #e7e7e7, /*左边阴影*/  
     5px 0 5px #e7e7e7, /*右边阴影*/  
     // 0 -5px 5px #e7e7e7, /*顶部阴影*/  
     0 5px 5px #e7e7e7; /*底边阴影*/  
+    h2{
+    	height: 42px;
+    	line-height: 42px;
+    }
+    .article-item{
+    	background-color: #fff;
+    	padding: 8px 20px 20px;
+    	margin-bottom: 15px;
+    	border-radius: 5px;
+    }
+    .pub-date{
+    	font-size: 12px;
+    	color: #999;
+    }
+    .a-h2{
+    	font-size: 18px;
+   		color: #333;
+    	color: rgb(26, 26, 26);
+    	&:hover{
+    		color: #175199;
+    	}
+    }
+    .desc{
+    	font-size: 15px;
+    	color: #1a1a1a;
+    }
+}
+.article {
+	background-color: #fff;
+	padding: 20px;
+	p{
+		margin-top: 5px;
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
 }

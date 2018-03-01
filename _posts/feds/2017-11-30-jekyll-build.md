@@ -8,11 +8,11 @@ description: 你想免费拥有一个可以自定义风格的博客吗，其实�
 
 # jekyll博客搭建流程
 
-## jekyll简介
+### jekyll简介
 
 我眼中的jekyll好比是一个静态网站生成器，即使你不会html+css+js技术也没关系，github上有很多现成的模板。下载下来直接在_post目录下写文章就可以了。如果你想体验下从零到有的构建一个自己风格的jekyll，也是可以的。
 
-## 下载安装
+### 下载安装
 
 由于jekyll依赖ruby环境，首先我们要安装ruby,然后使用ruby自带的gem包管理器来下载jekyll,命令如下：
 

@@ -3,7 +3,7 @@ layout: article
 category: feds
 type: web
 title: 移动端web开发插件(sublime)
-description: 移动端web开发,要考虑到屏幕适配。将设计稿的px尺寸转换为rem,sublime下的px转rem的插件
+description: 移动端web开发,要考虑到屏幕适配。将设计稿的px尺寸转换为rem,sublime下的px转rem的插件。
 ---
 ### px转rem的插件
 
