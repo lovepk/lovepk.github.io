@@ -9,11 +9,25 @@
 		&.open{
 			right:0;
 			ul{
-				background-color: rgba(255, 255, 255, 0.5);
+				background-color: rgba(0, 0, 0, 0.4);
 			}
 		}
 		.pag{
 			display: block;
+		}
+		.name {
+			color: #e7e7e7;
+		}
+		.job {
+			color: #fff;
+		}
+		.linkto {
+			a {
+				color: #ffcccc;
+			}
+			i {
+				color: #fff;
+			}
 		}
 	}
 }
