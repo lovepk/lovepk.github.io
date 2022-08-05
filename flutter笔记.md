@@ -29,3 +29,11 @@ gem sources --add https://gems.ruby-china.com/
 sudo gem install -n /usr/local/bin cocoapods
 pod setup
 ```
+
+### 无开发账号真机测试
+1. Preferences->Accounts->使用自己的AppId账号登陆
+2. Window->Devices->添加一个设备
+3. 使用xcode打开Flutter项目：打开文件->Runner.xcworkspace
+4. 点击项目的Runner->Signing 选择Team;配置BundleID
+5. 重新flutter run
+6. 配置手机。设置->通用->设备->信任
