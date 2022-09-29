@@ -3,15 +3,15 @@
 ### 配置环境变量
 1. 查看当前环境变量配置情况
 ```
-` echo $PATH
+echo $PATH
 ```
 2. 打开配置文件
 ``` 
-`sudo vim ~/.bash_profile
+sudo vim ~/.bash_profile
 ```
 3. 添加配置
 ```
-` export PATH="/Users/wangjun/kubo:$PATH"
+export PATH="/Users/wangjun/kubo:$PATH"
 ```
 ### 节点配置
 ```
@@ -34,7 +34,7 @@ ipfs config edit
 ### 添加前端静态目录
 执行：
 ```
-`ipfs add -r /Users/wangjun/Documents/www/myApp/app-h5/dao
+ipfs add -r /Users/wangjun/Documents/www/myApp/app-h5/dao
 ```
 生成：
 ```QmYHV4z8Qy4nKeCn96kvcvsUWgDvJ2BtEqeKo8TcuLAwVp```
@@ -42,7 +42,7 @@ ipfs config edit
 ### IPNS:发布生成固定cid（后续发布cid不变）
 执行：
 ```
-`ipfs name publish QmYHV4z8Qy4nKeCn96kvcvsUWgDvJ2BtEqeKo8TcuLAwVp --allow-offline
+ipfs name publish QmYHV4z8Qy4nKeCn96kvcvsUWgDvJ2BtEqeKo8TcuLAwVp --allow-offline
 ```
 生成
 ``` k51qzi5uqu5di8kj531yl13sir5g743sck9f34uawp6shpkohmo6lpsrr8r6ux ```
