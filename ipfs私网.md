@@ -18,7 +18,7 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ``` go build -o ipfs-swarm-key-gen main.go ```
 生成一个名为ipfs-swarm-key-gen的二进制可执行文件
 3. 使用ipfs-swarm-key-gen生产key文件
-``` ipfs-swarm-key-gen > swarm.key ```
+``` ./ipfs-swarm-key-gen > swarm.key ```
 4. 将生成的swarm.key文件放到用户的.ipfs目录中
 5. 将swarm.key复制到云服务器并移动到云服务器的.ipfs目录中
 ``` sudo mv swarm.key /ipfs/node0/ipfs_data/ ```
