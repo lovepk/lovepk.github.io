@@ -42,7 +42,7 @@ windows的话还要将libopenconnect-5.dll动态链接库文件复制到项目�
 4. 然后将libopenconnect-5.dll拷贝到项目目录中。
 
 # 如何使用自己的库
-1. 将lib.dll，libopenconnect-5.dll，wintun.dll，vpnc-script-win.js拷贝到另一个项目中即可。
+1. 将lib.dll，libopenconnect-5.dll (好像不需要，看实际情况)，wintun.dll，vpnc-script-win.js拷贝到另一个项目中即可。```gcc lib_ex.c -o ccc.exe```
 2. 如果是在flutter项目中使用，需要管理员权限运行``` flutter run ```才行，因为vpnc-script-win.js和wintun.dll的执行需要管理员权限。
 
 # 断开连接的问题
