@@ -1,4 +1,7 @@
 ## Redis安装
+### 卸载redis
+```sudo apt purge redis-server```
+```sudo apt autoremove```
 ### 安装命令
 ```sudo apt-get update```
 ```sudo apt-get upgrade```
